@@ -1,0 +1,55 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.env
+!.env.example
+
+# Secrets and API keys
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*api_key*
+*secret*
+*password*
+*token*
+# API Keys (specific patterns)
+nvapi-*
+sk-*
+ghp_*
+gho_*
+ghu_*
+ghs_*
+ghr_*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
